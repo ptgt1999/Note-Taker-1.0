@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const htmlPageRoute = require('./routes/htmlpage.js')
+const htmlPageRoute = require('./htmlpage.js')
 const noteRoute = require('./noteroute');
 
 router.use('/api', noteRoute);

@@ -12,8 +12,8 @@ app.use(routes);
 
 app.listen(PORT, (error) => {
     if (error) {
-        console.log("Error starting the server: ", error);
+        console.console.error("Error starting the server: ", error);
     } else {
-        console.log(`Serve is listening on ${PORT}`);
+        console.log(`Server is listening on ${PORT}`);
     }
 });
